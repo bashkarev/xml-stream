@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test xmlns="http:/example.com/xsi" xmlns:ns1="http:/example.com/ns1" xmlns:ns2="http:/example.com/ns2"
+      xmlns:ns3="http:/example.com/ns3">
+    <ns1:data>
+        <id>1</id>
+    </ns1:data>
+    <ns2:data>
+        <id>2</id>
+    </ns2:data>
+    <ns3:Data>
+        <id>3</id>
+    </ns3:Data>
+</test>

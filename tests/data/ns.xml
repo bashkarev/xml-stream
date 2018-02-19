@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test xmlns="http:/example.com/xsi">
+    <data>
+        <id>1</id>
+    </data>
+    <data>
+        <id>2</id>
+    </data>
+</test>
