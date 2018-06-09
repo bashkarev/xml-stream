@@ -9,7 +9,6 @@ namespace Bashkarev\XmlStream;
 
 use Psr\Http\Message\StreamInterface;
 use SimpleXMLElement;
-use Exception;
 
 /**
  * @author David North
@@ -94,7 +93,6 @@ class Parser
      * @param \Closure $callback The callback mechanism to use
      *
      * @return Parser
-     * @throws Exception
      */
     public function on($path, \Closure $callback)
     {
@@ -116,7 +114,8 @@ class Parser
 
     /**
      * @param string $path
-     * @return self
+     *
+     * @return Parser
      */
     public function off($path)
     {
