@@ -188,9 +188,9 @@ class Parser
         //Having a path data entry means at least 1 callback is interested in
         //the data. Loop through each path here and, if inside that path, add
         //the data
-        foreach ($this->pathData as $key => $val) {
+        foreach ($this->pathData as $key => &$val) {
             if (\strpos($this->currentPath, $key) !== false) {
-                $this->pathData[$key] .= $data;
+                $val .= $data;
             }
         }
     }
